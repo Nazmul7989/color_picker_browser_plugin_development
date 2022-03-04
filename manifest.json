@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Color Picker",
+  "description": "This is a color picker application",
+
+  "icons": {
+    "16": "assets/images/16.png",
+    "48": "assets/images/48.png",
+    "128": "assets/images/128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "assets/images/48.png",
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["activeTab"]
+}
